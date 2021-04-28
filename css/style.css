@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*Utility Classes*/
@@ -34,18 +35,17 @@ header {
     height: 54px;
     line-height: 34px;
     padding: 10px;
+    font-size: 15px;
 }
 
 section.navbar div {
     width: 25%;
     height: 100%;
-    border: 2px solid black;
 }
 
 section.navbar nav {
     width: 50%;
     height: 100%;
-    border: 2px solid black;
 }
 
 nav ul {
@@ -68,7 +68,7 @@ nav a {
 
 .login button {
     height: 30px;
-    padding: 5px 20px;
+    padding: 0 20px;
     font-size: 15px;
     border-radius: 20px;
 }
@@ -78,10 +78,9 @@ header {
 }
 
 .info {
-    width: 40%;
+    width: 50%;
     color: white;
     text-align: center;
-    border: 2px solid black;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -101,11 +100,37 @@ header .text {
     padding: 5px 20px;
     font-weight: bold;
     border-radius: 20px;
+    border: none;
+}
+
+.download::before {
+    content: "\2913";
+    margin-right: 5px;
+}
+
+.browser {
+    background-color: rgba(0, 0, 0, 0.911);
+    color: white;
+    margin-left: 30px;
+}
+
+main img {
+    margin-bottom: 200px;
 }
 
 main .text {
     width: 40%;
-    padding: 30px 60px;
-    height: 500px;
+    padding: 30px 80px;
+    margin-bottom: 200px;
     border: 2px solid black;
+}
+
+main h1 {
+    margin-bottom: 30px;
+    line-height: 1.2em;
+    color: rgba(0, 0, 0, 0.89);
+}
+
+main p {
+    font-size: 15px;
 }
