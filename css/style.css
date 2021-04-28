@@ -31,8 +31,9 @@ header {
 }
 
 .navbar {
-    height: 34px;
-    line-height: 34px;
+    height: 54px;
+    line-height: 54px;
+    padding: 10px;
 }
 
 section.navbar div {
