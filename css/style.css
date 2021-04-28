@@ -189,6 +189,8 @@ footer section {
 
 footer select {
     border: none;
+    color: white;
+    background-color: rgba(7, 7, 54, 0);
 }
 
 footer ul {
@@ -209,6 +211,17 @@ footer h3, footer h5 {
 
 hr {
     border-color: rgb(49, 49, 196);
+}
+
+footer button {
+    padding: 5px 20px;
+    color: white;
+    background-color: rgba(120, 120, 172, 0.349);
+}
+
+.icons span {
+    font-size: 25px;
+    margin-right: 15px;
 }
 
 
