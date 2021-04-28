@@ -24,6 +24,8 @@ header {
     background-size: cover;
     background-position: center;
     height: 600px;
+    position: relative;
+    margin-bottom: 100px;
 }
 
 .container {
@@ -73,10 +75,6 @@ nav a {
     border-radius: 20px;
 }
 
-header {
-    position: relative;
-}
-
 .info {
     width: 50%;
     color: white;
@@ -115,22 +113,54 @@ header .text {
 }
 
 main img {
+    height: 460px;
     margin-bottom: 200px;
 }
 
 main .text {
     width: 40%;
+    height: 460px;
     padding: 30px 80px;
     margin-bottom: 200px;
-    border: 2px solid black;
 }
 
-main h1 {
+main h1, aside h1 {
     margin-bottom: 30px;
     line-height: 1.2em;
     color: rgba(0, 0, 0, 0.89);
 }
 
-main p {
+main p, aside p {
     font-size: 15px;
 }
+
+aside .container {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 50px;
+    height: 55px;
+}
+
+.stars h3 {
+    line-height: 80px;
+}
+
+aside .download {
+    height: 40px;
+    padding: 5px 30px;
+    background-color: rgba(7, 7, 54, 0.836);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
