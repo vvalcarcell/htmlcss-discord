@@ -162,5 +162,28 @@ aside .download {
     border: none;
 }
 
+footer .one {
+    width: calc(1200px / 6 * 2);
+    height: 300px;
+    border: 2px solid black;
+}
+
+footer section {
+    width: calc(1200px / 6);
+    height: 300px;
+    border: 2px solid black;
+    text-align: left;
+    padding: 30px;
+}
+
+#ita {
+    height: 15px;
+    vertical-align: middle;
+}
+
+footer select {
+    border: none;
+}
+
 
 
