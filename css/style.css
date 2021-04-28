@@ -60,3 +60,10 @@ header > .container {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+main .text {
+    width: 40%;
+    padding: 30px 60px;
+    height: 500px;
+    border: 2px solid black;
+}
